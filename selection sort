@@ -5,7 +5,6 @@ class Solution:
             if arr[index] <= arr[starting_index]:
                    starting_index = index
         return starting_index
-    
     def selectionSort(self, arr,n):
          for i in range(len(arr)):
             starting_index = self.select(arr,i)
